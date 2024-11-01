@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея Астрофотографий</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+			object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .buttons {
+            margin-top: 30px;
+        }
+        .button {
+            background-color: #007acc;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .button:hover {
+            background-color: #005f99;
+        }
+    </style>
+</head>
+<body>
+    <h1>Галерея Астрофотографий</h1>
+    <p>Наслаждайтесь великолепием космоса через наши астрофотографии.</p>
+
+    <div class="gallery">
+        <img src="Andromeda.jpg" alt="Астрофотография 1">
+        <img src="Glow.jpg" alt="Астрофотография 2">
+        <img src="MW2.jpg" alt="Астрофотография 3">
+		<img src="Moon.jpg" alt="Астрофотография 4">
+		<img src="Krab.jpg" alt="Астрофотография 5">
+		<img src="Micro.jpg" alt="Астрофотография 6">
+		<img src="Sun.jpg" alt="Астрофотография 7">
+		<img src="Moon2.jpg" alt="Астрофотография 8">
+		<img src="Pulsar.jpg" alt="Астрофотография 9">
+		<img src="Sun2.jpg" alt="Астрофотография 10">
+		<img src="c13.jpg" alt="Астрофотография 11">
+        <!-- Добавьте другие изображения по необходимости -->
+    </div>
+
+    <div class="buttons">
+        <a href="objects.html" class="button">Космические Объекты</a>
+		<a href="about.html" class="button">О проекте</a>
+        <!-- Добавьте другие кнопки, если нужно -->
+    </div>
+</body>
+</html>
